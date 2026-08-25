@@ -150,4 +150,28 @@ footer {
     form {
         padding: 2rem;
     }
+
+    .favorite-btn {
+    background-color: #a8562a;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.favorite-btn:hover {
+    background-color: #7c3f20;
+}
+
+#favorites-list {
+    background-color: #f4e2cf;
+    padding: 1rem 2rem;
+}
+
+#name-error,
+#email-error {
+    color: #b00020;
+    font-weight: bold;
 }
